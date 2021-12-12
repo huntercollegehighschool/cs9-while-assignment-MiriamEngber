@@ -11,10 +11,14 @@ Enter a number: 50
 Number of squares less than or equal to 50: 7
 
 '''
-num = int(input("Enter a number:"))
+number = int(input("Enter a number:"))
 numbertosquare = 1
 numsquares = 0
-while numbertosquare ** 2 <= num:
-    numsquares = numsquares + 1
+while numbertosquare ** 2 <= number:
+  numsquares = numsquares + 1
+  '''print("numsquares=",numsquares,"numbertosquare=",numbertosquare,"numbertosquare**2=",numbertosquare ** 2,"number=",number)'''
+  numbertosquare = numbertosquare + 1
+else:
+  '''print("No,", numbertosquare, "squared is not less than or equal to", number)'''
     
-print("Number of squares less than or equal to", str(num)+':', numsquares)
+print("Number of squares less than or equal to", str(number)+':', numsquares)

@@ -11,3 +11,16 @@ Hunter
 Hunter
 
 '''
+number = int(input("Times to print: "))
+hunter_times = 0
+while number > 0:
+  '''print("number=", number, " hunter_times=", hunter_times)'''
+  print("Hunter") 
+  hunter_times = hunter_times + 1
+  '''print("I have now printed Hunter", hunter_times, "times")
+  print("is", hunter_times, "equal to", number, "?")'''
+  if hunter_times == number:
+    '''print("Yes.")'''
+    break
+  else:
+    '''print("No, I'll keep running!")'''
