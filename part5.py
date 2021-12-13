@@ -25,3 +25,4 @@ while num != 0:
     even_numbers = even_numbers + 1
   num = int(input("Enter a number or enter 0 to stop:"))
 print("Number of evens:", even_numbers)
+ 
