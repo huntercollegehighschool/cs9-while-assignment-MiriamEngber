@@ -23,3 +23,4 @@ while num != 0:
   num = int(input("Enter a number or enter 0 to stop:"))
     
 print("Average:", total / amount_of_numbers)
+ 
