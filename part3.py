@@ -14,11 +14,13 @@ Enter a number or enter 0 to stop: 0
 Average: 6.0
 
 '''
+amount_of_numbers = 0
 num = int(input("Enter a number or enter 0 to stop:"))
 total = 0
-
 while num != 0:
+  amount_of_numbers = amount_of_numbers + 1
   total = total + num
   num = int(input("Enter a number or enter 0 to stop:"))
     
-print("Average:", total)
+print("Average:", total / amount_of_numbers)
+ 
